@@ -1,0 +1,9 @@
+#footer{
+    padding-top: 80px;
+}
+.footer__brand{
+    text-align: center;
+}
+.footer__brand__link__logo{
+    width: 120px;
+}
