@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import './Cadastro.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from '../../Components/Footer/FooterBar'
-import BannerCadastro from '../../images/banner__SejaHyper/banner__SejaHyper__desktop.png'
 import { Container, Title, Subtitle } from "../../Components/Styles/ComponentsStyle";
 
 export default function Cadastro () {
@@ -40,10 +39,6 @@ export default function Cadastro () {
     return(
         <>
         <Navbar/>
-        <header>
-            <img className="bannerImage" src={[BannerCadastro]} alt="" />
-        </header>
-        
         <main>
             <Container>
                 <Title>O caminho para a melhor versão de si mesmo <span className="title__emphasis">começa aqui</span>!</Title>
