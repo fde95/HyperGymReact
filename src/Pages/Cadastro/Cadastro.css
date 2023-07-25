@@ -1,0 +1,101 @@
+.bannerImage{
+    width: 100%;
+}
+.form{
+    background-image: url(../../images/banner__SejaHyper/banner__form.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5.6vw;
+    min-height: 80vh;
+    margin-top: 24px;
+}
+.formDiv{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formCadastro{
+    background-color: #0d0d0d9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+}
+.formCadastro__input, .formCadastro__label{
+display: block;
+width: 400px;
+color: #c4c4c4;
+padding: 8px;
+background-color: transparent;
+text-align: center;
+}
+.formCadastro__input{
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-size: 1em;
+}
+.formCadastro__input:focus-visible{
+    outline: 2px solid #13F261;
+    color: #13F261;
+    font-weight: bold;
+}
+
+.formCadastro__input:focus-visible::selection{
+    background-color: #DE4C47;
+}
+
+.formCadastro__button{
+    cursor: pointer;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #16f275;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+}
+.formCadastro__button:hover{
+    background-color: #0DA643;
+}
+.submitConfirm{
+    background-color: transparent;
+    padding: 24px;
+    color: #16f275;
+    display: none;
+    text-align: center;
+}
+.submitConfirm__text__destaq{
+    background-color: transparent;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.submitConfirm__text{
+    background-color: transparent;
+}
+
+@media (max-width: 767px){
+    .form{
+        background-image: url(../../images/banner__SejaHyper/banner__form__smatphone.png);
+        background-size: cover;
+        min-height: 60vh;
+    }
+    .formCadastro{
+        width: 300px;
+    }
+    .formCadastro__input, .formCadastro__label{
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .form{
+        background-image: url(../../images/banner__SejaHyper/banner__form__tablet.png);
+        background-size: cover;
+        min-height: 40vh;
+    }
+}

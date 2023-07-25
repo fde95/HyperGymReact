@@ -47,7 +47,7 @@ export const Title = styled.h2`
         text-transform: uppercase;
     }
     @media (max-width: 767px){
-        font-size: 2em;
+        font-size: 1.7em;
     }
 `
 
@@ -55,6 +55,7 @@ export const Subtitle = styled.p`
     font-size: 1.2em;
     color: #C4C4C4;
     margin: 0;
+    text-align: justify;
 
     @media (max-width: 767px){
         font-size: 1em;
