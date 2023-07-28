@@ -30,9 +30,10 @@
     margin-bottom: 24px;
 }
 
-
+/* Classes */
 #GymClasses{
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 .gymClasses__cards{
     text-align: center;
@@ -71,6 +72,87 @@
 .gymClasses__cards__list__item__button:hover{
     background-color: #16f275;
     color: #285E3B;
+}
+
+
+/* Price */
+#Price{
+    padding-top: 80px;
+    padding-bottom: 80px ;
+    background-color: #16f275;
+}
+.price__box{
+    border-radius: 20px;
+    padding: 24px 16px;
+}
+.price__list{
+    color: #C4C4C4;
+    margin: 60px 16px 0;
+}
+.price__list__contain{
+    display: flex;
+}
+
+/* List Text */
+.price__list__text__header{
+    width: 300px;
+    height: 100px;
+}
+.price__list__text__item{
+    padding: 8px 8px 8px 8px;
+    border-top: 1px solid #c4c4c4;
+    width: 500px;
+    font-weight: 600;
+}
+
+
+.price__list__basicPlan__header, .price__list__hyperPlan__header{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+.price__list__check__item, .price__list__uncheck__item{
+    text-align: center;
+    color: #16f275;
+    font-size: 1.2em;
+    padding: 6px;
+    border-top: 1px solid #c4c4c4;
+}
+.price__list__uncheck__item{
+    color: #DE4C47;
+}
+.price__list__basicPlan__footer, .price__list__hyperPlan__footer{
+    text-align: center;
+    margin-top: 16px;
+}
+.price__list__text__oldPrice{
+    margin-bottom: 8px;
+    font-size: .9em;
+}
+.price__list__text__newPrice{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.price__list__hyperPlan__header{
+    color: #0d0d0d;
+    background-color: #adadad;
+    border-radius: 8px 8px 0 0;
+}
+.price__list__hyperPlan__header h3, .price__list__hyperPlan__header p{
+    background-color: transparent;
+}
+.price__list__hyperPlan  .price__list__check__item{
+    background-color: #6b6b6b;
+}
+.price__list__hyperPlan  .price__list__check__item i{
+    background-color: transparent;
+}
+.price__list__check__item:last-child{
+    border-radius: 0 0 8px 8px;
 }
 
 @media(max-width: 767px){
@@ -114,5 +196,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 60px;
+    }
+
+    .price__list{
+        color: #C4C4C4;
+        margin: 60px 0 0;
+    }
+    .price__list__text__header{
+        width: 290px;
+    }
+    .price__list__text__item{
+        width: 100%;
     }
 }

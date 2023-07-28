@@ -26,6 +26,7 @@ export const Container = styled.div`
     text-align: justify;
     justify-content: space-between;
     align-items: center;
+    background-color: transparent;
     @media (max-width: 767px){
         width: 90%;
     }
@@ -40,11 +41,13 @@ export const Title = styled.h2`
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 24px;
+    background-color: transparent;
 
     .title__emphasis{
         font-weight: 900;
         color: #16f275;
         text-transform: uppercase;
+        background-color: transparent;
     }
     @media (max-width: 767px){
         font-size: 1.7em;
@@ -56,6 +59,7 @@ export const Subtitle = styled.p`
     color: #C4C4C4;
     margin: 0;
     text-align: justify;
+    background-color: transparent;
 
     @media (max-width: 767px){
         font-size: 1em;
