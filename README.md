@@ -1,5 +1,5 @@
 <h1 align="center">
-  <p align="center"> <a href="https://easy-consorcio.vercel.app/">HYPER Gym</a></p>
+  <p align="center"> HYPER Gym</p>
   <img width="600" src="https://media.giphy.com/media/WsjvRxj8RRxYZgIzzI/giphy.gif" alt="Working Out Lifting Weights GIF"></a>
 </h1>
 <div style="display: inline_block">
