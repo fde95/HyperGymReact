@@ -173,7 +173,7 @@ export default function Home () {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li className="price__list__basicPlan">
                                 <div className="price__list__basicPlan__header">
                                     <h3>Plano Health +</h3>
                                     <p>O primeiro passo para a sua mudança</p>
@@ -264,6 +264,27 @@ export default function Home () {
                                 </div>
                             </li>
                         </ul>
+
+                        <div className="price__list__contain__card">
+                            <h2 className="card__title">
+                                Plano Health +
+                            </h2>
+                            <p className="card__description">
+                                O primeiro passo para a sua mudança
+                            </p>
+                            <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$130,00/mês</span></p>
+                            <p className="price__list__text__newPrice">Por <span>R$99,90</span></p>
+                        </div>
+                        <div className="price__list__contain__card">
+                            <h2 className="card__title">
+                                Plano HYPER
+                            </h2>
+                            <p className="card__description">
+                                PRO de verdade! Alcance os melhores resultados!
+                            </p>
+                            <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$220,00/mês</span></p>
+                            <p className="price__list__text__newPrice">Por <span>R$149,90</span></p>
+                        </div>
                     </div>
                     </div>
                 </Container>
