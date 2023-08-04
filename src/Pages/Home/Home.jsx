@@ -9,6 +9,10 @@ import Danca from '../../images/sgv/classes__dance.svg'
 import Musculacao from '../../images/sgv/classes__ gym.svg'
 import Natacao from '../../images/sgv/classes__ swimming.svg'
 import Combate from '../../images/sgv/classes__combat.svg'
+import DanceImage from '../../images/classes/dance__class.png'
+import MusculacaoImage from '../../images/classes/gym__class.png'
+import NatacaoImage from '../../images/classes/swimming__class.png'
+import CombateImage from '../../images/classes/fight__class.png'
 import { Container, Title, Subtitle, CardTitle } from "../../Components/Styles/ComponentsStyle";
 import { Link } from 'react-router-dom'
 
@@ -57,7 +61,7 @@ export default function Home () {
                 <div className="gymClasses__cards">
                     <ul className="gymClasses__cards__list">
                         <li className="gymClasses__cards__list__item">
-                            <img className="gymClasses__cards__list__item__image" src="http://via.placeholder.com/250x300" alt="" />
+                            <img className="gymClasses__cards__list__item__image" src={[DanceImage]} alt="" />
                             <div className="gymClasses__cards__list__item__content">
                                 <CardTitle>Dança</CardTitle>
                                 <img className="gymClasses__cards__list__item__icon" src={[Danca]} alt="" />
@@ -68,7 +72,7 @@ export default function Home () {
                         </li>
                         
                         <li className="gymClasses__cards__list__item">
-                            <img className="gymClasses__cards__list__item__image" src="http://via.placeholder.com/250x300" alt="" />
+                            <img className="gymClasses__cards__list__item__image" src={[MusculacaoImage]} alt="" />
                             <div className="gymClasses__cards__list__item__content">
                                 <CardTitle>Musculação</CardTitle>
                                 <img className="gymClasses__cards__list__item__icon" src={[Musculacao]} alt="" />
@@ -79,7 +83,7 @@ export default function Home () {
                         </li>
 
                         <li className="gymClasses__cards__list__item">
-                            <img className="gymClasses__cards__list__item__image" src="http://via.placeholder.com/250x300" alt="" />
+                            <img className="gymClasses__cards__list__item__image" src={[NatacaoImage]} alt="" />
                             <div className="gymClasses__cards__list__item__content">
                                 <CardTitle>Natação</CardTitle>
                                 <img className="gymClasses__cards__list__item__icon" src={[Natacao]} alt="" />
@@ -90,7 +94,7 @@ export default function Home () {
                         </li>
 
                         <li className="gymClasses__cards__list__item">
-                            <img className="gymClasses__cards__list__item__image" src="http://via.placeholder.com/250x300" alt="" />
+                            <img className="gymClasses__cards__list__item__image" src={[CombateImage]} alt="" />
                             <div className="gymClasses__cards__list__item__content">
                                 <CardTitle>Combate</CardTitle>
                                 <img className="gymClasses__cards__list__item__icon" src={[Combate]} alt="" />

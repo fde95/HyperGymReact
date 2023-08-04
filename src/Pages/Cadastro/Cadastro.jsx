@@ -59,10 +59,10 @@ export default function Cadastro () {
 
                             <div className="submitConfirm"> 
                                 <p className="submitConfirm__text__destaq">
-                                    Cadastrado com sucesso!
+                                    Pré cadastrado realizado com sucesso!
                                 </p>
                                 <p className="submitConfirm__text">
-                                Agora é só comparecer em nossa unidade e seu cadastro já estará liberado
+                                Agora é só comparecer em nossa unidade para assinatura do contrato e começar seu treino.
                                 </p>
                             </div>
 
