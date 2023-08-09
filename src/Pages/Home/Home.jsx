@@ -15,6 +15,7 @@ import Combate from '../../images/sgv/classes__combat.svg'
 import DanceImage from '../../images/classes/dance__class.png'
 import MusculacaoImage from '../../images/classes/gym__class.png'
 import NatacaoImage from '../../images/classes/swimming__class.png'
+import ImcImage from '../../images/imc/btn__imc.png'
 import CombateImage from '../../images/classes/fight__class.png'
 import { Container, Title, Subtitle, CardTitle } from "../../Components/Styles/ComponentsStyle";
 import Price from '../../Components/Price/Price'
@@ -116,6 +117,25 @@ export default function Home () {
                 <Container>
                     <Price/>
                 </Container>
+            </section>
+
+            <section id="Imc">
+                <Title>Antes de treinar você precisa <span className="title__emphasis">se conhecer</span>!</Title>
+                <div className="gridImc">
+                    <div className="gridImc__content">
+                        <Subtitle>
+                            Pronto para descobrir o que seu IMC revela sobre sua saúde? Nosso Calculador de IMC está a apenas um clique de distância! Clique no botão abaixo para ser redirecionado para a página da calculadora.
+                            <br/><br/>
+                            Insira seu peso e altura e obtenha insights sobre sua composição corporal e estado nutricional. A saúde começa com o conhecimento, e estamos aqui para ajudar você a tomar medidas informadas em direção a um estilo de vida mais saudável. Clique agora e desvende os segredos do seu IMC!
+                        </Subtitle>
+                        <div className="btn">
+                        <Link to='/ImcCalculadora' rel="noopener noreferrer" className="calc">Calcular meu IMC</Link>
+                        </div>
+                    </div>
+                    <div className="gridImc__content__image">
+                        <img className="gridImc__content__image__content" src={[ImcImage]} alt="" />
+                    </div>
+                </div>
             </section>
         </main>
         <Footer/>

@@ -75,7 +75,37 @@
 }
 
 
+#Imc{
+    padding-top: 80px;
+}
+.gridImc{
+    display: flex;
+    margin: 40px 100px 0;
+    align-items: center;
+}
+.gridImc__content__image{
+    margin-left: 80px;
+}
+.gridImc__content__image__content{
+    border-radius: 24px;
+}
 
+.btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.calc{
+    padding: 16px;
+    background-color: #DE4C47;
+    color: #16f275;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-radius: 16px;
+}
+.calc:hover{
+    background-color: #16f275;
+    color: #285E3B;
+}
 @media(max-width: 767px){
     .hero{
         background-image: url(../../images/hero/hero__image__smartphone.png);
@@ -101,6 +131,22 @@
     .gymClasses__cards__list__item{
         margin-bottom: 40px;
     }
+
+    /* IMC */
+    .gridImc{
+        display: block;
+        margin:0;
+    }
+    .gridImc__content{
+        margin: 0 32px 24px;
+    }
+    .gridImc__content__image{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 60px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
@@ -117,5 +163,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 60px;
+    }
+
+    .gridImc{
+        display: flex;
+        margin: 40px 40px 0;
+        align-items: center;
+    }
+    .gridImc__content__image{
+        margin-left: 30px;
+        height: 100%;
     }
 }
