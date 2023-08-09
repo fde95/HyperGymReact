@@ -2,6 +2,9 @@ import React from "react";
 import './Home.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/FooterBar";
+import QualidadeImage from '../../images/experience/quality__image.png'
+import PrivacidadeImage from '../../images/experience/privacity__image.png'
+import ExclusividadeImage from '../../images/experience/exclusivity__image.png'
 import Qualidade from "../../images/sgv/experience__item__quality.svg"
 import Privacidade from "../../images/sgv/experience__item__privacity.svg"
 import Exclusividade from "../../images/sgv/experience__item__exclusive.svg"
@@ -14,6 +17,7 @@ import MusculacaoImage from '../../images/classes/gym__class.png'
 import NatacaoImage from '../../images/classes/swimming__class.png'
 import CombateImage from '../../images/classes/fight__class.png'
 import { Container, Title, Subtitle, CardTitle } from "../../Components/Styles/ComponentsStyle";
+import Price from '../../Components/Price/Price'
 import { Link } from 'react-router-dom'
 
 export default function Home () {
@@ -34,17 +38,17 @@ export default function Home () {
                 </Container>
                 <ul className="experience__list">
                     <li className="experience__list__item">
-                        <img className="experience__list__item__image" src="http://via.placeholder.com/300x300" alt="Imagem figurativa" />
+                        <img className="experience__list__item__image" src={[PrivacidadeImage]} alt="Imagem figurativa" />
                         <CardTitle>Privacidade</CardTitle>
                         <img src={[Privacidade]} alt="" />
                     </li>
                     <li className="experience__list__item">
-                        <img className="experience__list__item__image" src="http://via.placeholder.com/300x300" alt="Imagem figurativa" />
+                        <img className="experience__list__item__image" src={[QualidadeImage]} alt="Imagem figurativa" />
                         <CardTitle>Qualidade</CardTitle>
                         <img src={[Qualidade]} alt="" />
                     </li>
                     <li className="experience__list__item">
-                        <img className="experience__list__item__image" src="http://via.placeholder.com/300x300" alt="Imagem figurativa" />
+                        <img className="experience__list__item__image" src={[ExclusividadeImage]} alt="Imagem figurativa" />
                         <CardTitle>Exclusividade</CardTitle>
                         <img src={[Exclusividade]} alt="" />
                     </li>
@@ -110,187 +114,7 @@ export default function Home () {
 
             <section id="Price">
                 <Container>
-                    <div className="price__box">
-                    <Title>Mais que uma acadêmia, um <br/> <span className="title__emphasis"> centro de evolução</span></Title>
-                    <Subtitle>Os melhores profissionais, equipamentos, infraestrutura e sem letrinhas miúdas! Tudo para você alcançar a sua transformação com uma experiência única e incomparável pagando apenas pelo mês que for treinar, sem taxa de matrícula nem taxa de rompimento de contrato.</Subtitle>
-
-                    <div className="price__list">
-                        <ul className="price__list__contain">
-                            <li>
-                                <div className="price__list__text__header">
-                                </div>
-                                <ul className="price__list__text"> 
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Acesso a todas as atividades
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Hyper No Excuses <span>treinos online</span>
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Hyper App
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Suplementação HYPER*
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Profissional trainer 
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Nutricionista
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Avaliação física mensal
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Estacionamento
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Cadeira de massagem
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Hyper Isotonic
-                                        </p>
-                                    </li>
-                                    <li className="price__list__text__item">
-                                        <p>
-                                            Leve até 4 amigos uma vez por mês com você
-                                        </p>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="price__list__basicPlan">
-                                <div className="price__list__basicPlan__header">
-                                    <h3>Plano Health +</h3>
-                                    <p>O primeiro passo para a sua mudança</p>
-                                </div>
-                                <ul className="price__list__check"> 
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__uncheck__item">
-                                        <i class="bi bi-x-lg"></i>
-                                    </li>
-                                    <li className="price__list__uncheck__item">
-                                        <i class="bi bi-x-lg"></i>
-                                    </li>
-                                    <li className="price__list__uncheck__item">
-                                        <i class="bi bi-x-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__uncheck__item">
-                                        <i class="bi bi-x-lg"></i>
-                                    </li>
-                                    <li className="price__list__uncheck__item">
-                                        <i class="bi bi-x-lg"></i>
-                                    </li>
-                                </ul>
-                                <div className="price__list__basicPlan__footer">
-                                    <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$130,00/mês</span></p>
-                                    <p className="price__list__text__newPrice">Por <span>R$99,90</span></p>
-                                </div>
-                            </li>
-                            <li className="price__list__hyperPlan">
-                                <div className="price__list__hyperPlan__header">
-                                    <h3>Plano HYPER</h3>
-                                    <p>PRO de verdade! Alcance os melhores resultados!</p>
-                                </div>
-                                <ul className="price__list__check"> 
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                    <li className="price__list__check__item">
-                                        <i class="bi bi-check-lg"></i>
-                                    </li>
-                                </ul>
-                                <div className="price__list__hyperPlan__footer">
-                                    <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$220,00/mês</span></p>
-                                    <p className="price__list__text__newPrice">Por <span>R$149,90</span></p>
-                                </div>
-                            </li>
-                        </ul>
-
-                        <div className="price__list__contain__card">
-                            <h2 className="card__title">
-                                Plano Health +
-                            </h2>
-                            <p className="card__description">
-                                O primeiro passo para a sua mudança
-                            </p>
-                            <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$130,00/mês</span></p>
-                            <p className="price__list__text__newPrice">Por <span>R$99,90</span></p>
-                        </div>
-                        <div className="price__list__contain__card">
-                            <h2 className="card__title">
-                                Plano HYPER
-                            </h2>
-                            <p className="card__description">
-                                PRO de verdade! Alcance os melhores resultados!
-                            </p>
-                            <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$220,00/mês</span></p>
-                            <p className="price__list__text__newPrice">Por <span>R$149,90</span></p>
-                        </div>
-                    </div>
-                    </div>
+                    <Price/>
                 </Container>
             </section>
         </main>

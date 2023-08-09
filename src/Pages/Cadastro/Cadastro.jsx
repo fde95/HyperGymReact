@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Cadastro.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from '../../Components/Footer/FooterBar'
+import Price from "../../Components/Price/Price";
 import { Container, Title, Subtitle } from "../../Components/Styles/ComponentsStyle";
 
 export default function Cadastro () {
@@ -70,7 +71,9 @@ export default function Cadastro () {
                         </form>
                     </div>
                 </div>
-            
+            <Container>
+                <Price/>
+            </Container>
         </main>
         <Footer/>
         </>
