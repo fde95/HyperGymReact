@@ -1,5 +1,12 @@
-h1{
-    color: aliceblue;
-    font-size: 5em;
-    text-align: center;
+.buildingHero{
+    background-image: url(../../images/building/building.png);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.introducao{
+    margin-top: 100px;
+    padding: 50px 40px;
+    border-radius: 80px;
+    opacity: 90%;
 }

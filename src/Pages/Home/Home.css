@@ -80,7 +80,7 @@
 }
 .gridImc{
     display: flex;
-    margin: 40px 100px 0;
+    margin: 40px 300px 0;
     align-items: center;
 }
 .gridImc__content__image{
@@ -92,7 +92,6 @@
 
 .btn{
     margin-top: 30px;
-    text-align: center;
 }
 .calc{
     padding: 16px;
@@ -146,6 +145,7 @@
     }
     .btn{
         margin-bottom: 60px;
+        text-align: center;
     }
 }
 
@@ -173,5 +173,13 @@
     .gridImc__content__image{
         margin-left: 30px;
         height: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px){
+    .gridImc{
+        display: flex;
+        margin: 40px 100px 0;
+        align-items: center;
     }
 }
