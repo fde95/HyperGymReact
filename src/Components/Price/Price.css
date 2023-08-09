@@ -58,6 +58,7 @@
 .price__list__text__newPrice{
     font-size: 1.3em;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .lineThrough{
     text-decoration: line-through;
@@ -82,6 +83,21 @@
 }
 .price__list__contain__card{
     display: none;
+}
+
+.enroll{
+    padding: 8px 16px;
+    background-color: #16f275;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #0d0d0d;
+}
+.enroll__hyper{
+    padding: 8px 16px;
+    background-color: #DE4C47;;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #C4C4C4;
 }
 
 

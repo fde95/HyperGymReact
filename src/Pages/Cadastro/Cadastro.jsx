@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import './Cadastro.css'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from '../../Components/Footer/FooterBar'
@@ -45,7 +45,7 @@ export default function Cadastro () {
                 <Title>O caminho para a melhor versão de si mesmo <span className="title__emphasis">começa aqui</span>!</Title>
                 <Subtitle>Desperte o potencial que existe dentro de você e alcance o melhor da sua saúde e forma física. Não espere mais, matricule-se agora e inicie uma jornada de transformação e superação pessoal!</Subtitle>
             </Container>
-                <div className="form">
+                <div className="form" id="form">
                     <div className="formDiv">
                         <form className="formCadastro" onSubmit={addUser}>
                             

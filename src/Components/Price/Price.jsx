@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './Price.css';
 import { Link } from "react-router-dom";
 import { Title, Subtitle } from "../Styles/ComponentsStyle";
 
 export default function Price () {
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+    }, []);
+
     return(
         <>
             <div className="price__box">
@@ -116,6 +120,9 @@ export default function Price () {
                         <div className="price__list__basicPlan__footer">
                             <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$130,00/mês</span></p>
                             <p className="price__list__text__newPrice">Por <span>R$99,90</span></p>
+                            <Link to='/sejaHYPER' rel="noopener noreferrer" className="enroll">
+                                Matricule-se
+                            </Link>
                         </div>
                     </li>
                     <li className="price__list__hyperPlan">
@@ -161,6 +168,9 @@ export default function Price () {
                         <div className="price__list__hyperPlan__footer">
                             <p className="price__list__text__oldPrice">De: <span className="lineThrough">R$220,00/mês</span></p>
                             <p className="price__list__text__newPrice">Por <span>R$149,90</span></p>
+                            <Link to='/sejaHYPER' rel="noopener noreferrer" className="enroll__hyper">
+                                SEJA HYPER
+                            </Link>
                         </div>
                     </li>
                 </ul>

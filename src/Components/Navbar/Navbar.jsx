@@ -17,6 +17,9 @@ export default function Navbar () {
                     <Link className="navbar__links__item" to='/unidades'>Unidade</Link>
                 </li>
                 <li className="navbar__link">
+                    <Link className="navbar__links__item" to='/ImcCalculadora'>IMC</Link>
+                </li>
+                <li className="navbar__link">
                     <Link className="navbar__links__item emphasis" to='/sejaHYPER'>Seja Hyper</Link>
                 </li>
             </ul>
