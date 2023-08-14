@@ -65,6 +65,10 @@ export default function Cadastro () {
                                 <p className="submitConfirm__text">
                                 Agora é só comparecer em nossa unidade para assinatura do contrato e começar seu treino.
                                 </p>
+                                <br/>
+                                <p className="submitConfirm__text">
+                                Avenida do Maromba, nº1000 - Jardim No Pain No Gain - 00000-000
+                                </p>
                             </div>
 
                             <button type="submit" className="formCadastro__button">Cadastrar</button>

@@ -56,7 +56,7 @@ export const Title = styled.h2`
 
 export const Subtitle = styled.p`
     font-size: 1.2em;
-    color: #C4C4C4;
+    color: #ececec;
     margin: 0;
     text-align: justify;
     background-color: transparent;
