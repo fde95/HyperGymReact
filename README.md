@@ -16,7 +16,7 @@
 
 
   <h2>Visão Geral do Projeto</h2>
-  <p>O objetivo principal deste projeto é aprofundar meu conhecimento em React e seu ecossistema enquanto construo um site do zero. Desde a escolha da paleta de cores até o design de imagens personalizadas, todos os aspectos do site estão sendo desenvolvidos por mim. Estou empolgado em compartilhar meu progresso com vocês conforme o projeto evolui.</p>
+  <p>O objetivo principal deste projeto é aprofundar meu conhecimento em React e seu ecossistema enquanto construo um site do zero. Desde a escolha da paleta de cores até o design de imagens personalizadas, todos os aspectos do site estão sendo desenvolvidos por mim. Além disso, integrei uma calculadora de Índice de Massa Corporal (IMC) para auxiliar os usuários a monitorar sua saúde e progresso fitness de forma interativa e informativa. Estou empolgado em compartilhar meu progresso com vocês conforme o projeto evolui.</p>
  
  <h2>Recursos</h2>
 <ul>
@@ -31,6 +31,9 @@
   <li>
     <b>Styled Components: </b>
     Utilizando o Styled Components para estilizar os componentes de forma mais intuitiva e organizada, tornando o código mais limpo e legível.
+  </li>
+  <li>
+    <b>Calculadora de IMC:</b> Adicionei uma calculadora de Índice de Massa Corporal (IMC) interativa para auxiliar os usuários a monitorar sua saúde e progresso fitness.
   </li>
 </ul>
 
@@ -77,7 +80,7 @@
    Pré-visualização
   </h2>
   
-https://github.com/fde95/HyperGymReact/assets/123211425/dfd915ac-e3f7-4260-92a6-86ddeef38253
+https://github.com/fde95/HyperGymReact/assets/123211425/48be3222-1770-4a9e-b6af-f219085f65c0
 
 
 
